@@ -1,0 +1,418 @@
+{
+  "query": {
+    "name": "google.com",
+    "qtype": "A"
+  },
+  "start_time": "2025-11-11T12:06:29.345Z",
+  "duration_ms": 15558,
+  "raw_output": "\n; <<>> DiG 9.18.41 <<>> +trace google.com A\n;; global options: +cmd\n.\t\t\t6360\tIN\tNS\tj.root-servers.net.\n.\t\t\t6360\tIN\tNS\te.root-servers.net.\n.\t\t\t6360\tIN\tNS\tg.root-servers.net.\n.\t\t\t6360\tIN\tNS\tc.root-servers.net.\n.\t\t\t6360\tIN\tNS\tk.root-servers.net.\n.\t\t\t6360\tIN\tNS\ta.root-servers.net.\n.\t\t\t6360\tIN\tNS\tf.root-servers.net.\n.\t\t\t6360\tIN\tNS\th.root-servers.net.\n.\t\t\t6360\tIN\tNS\tm.root-servers.net.\n.\t\t\t6360\tIN\tNS\td.root-servers.net.\n.\t\t\t6360\tIN\tNS\ti.root-servers.net.\n.\t\t\t6360\tIN\tNS\tb.root-servers.net.\n.\t\t\t6360\tIN\tNS\tl.root-servers.net.\n;; Received 239 bytes from 127.0.0.11#53(127.0.0.11) in 1 ms\n\n;; UDP setup with 2001:500:a8::e#53(2001:500:a8::e) for google.com failed: network unreachable.\n;; no servers could be reached\n;; UDP setup with 2001:500:a8::e#53(2001:500:a8::e) for google.com failed: network unreachable.\n;; no servers could be reached\n;; UDP setup with 2001:500:a8::e#53(2001:500:a8::e) for google.com failed: network unreachable.\ncom.\t\t\t172800\tIN\tNS\ta.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tb.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tc.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\td.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\te.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tf.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tg.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\th.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\ti.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tj.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tk.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tl.gtld-servers.net.\ncom.\t\t\t172800\tIN\tNS\tm.gtld-servers.net.\ncom.\t\t\t86400\tIN\tDS\t19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A\ncom.\t\t\t86400\tIN\tRRSIG\tDS 8 1 86400 20251124050000 20251111040000 61809 . z7OyY9wOcL8NannyCF+wfD5wrMaLuvQalYuFgR08JjJecsXEUoMSSDRT olkgmOW8wcuZO0DTLpUKQ/Hz5dB/8lW7dSjWv6QPHMFFiTMHKR/xfDGA EawfXD6DXtB/kRrTRLBnWyx5QjMvprO3AAMGs5gdYZrAxet2G9cqPZWR 0RRRCN3lsGqheWX86ijsXXX6GhxjqiLP1GSlC72cATP2HzLeN2aUsOMY o+2BZsoApqjR+SFB+B47+kPxUan7/V2bxww2Lk2wsBY1/lstT+lZgV7S vwr+YQ9VT/IcDPsFunEIgThev8LMKvX+QOaB3IdMiThu1D/dOJstgbPP W7vRwg==\n;; Received 1170 bytes from 198.97.190.53#53(h.root-servers.net) in 314 ms\n\ngoogle.com.\t\t172800\tIN\tNS\tns2.google.com.\ngoogle.com.\t\t172800\tIN\tNS\tns1.google.com.\ngoogle.com.\t\t172800\tIN\tNS\tns3.google.com.\ngoogle.com.\t\t172800\tIN\tNS\tns4.google.com.\nCK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL NS SOA RRSIG DNSKEY NSEC3PARAM\nCK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN RRSIG NSEC3 13 2 900 20251115002630 20251107231630 46539 com. dxQ1aDzMstWomzJXQiHSR7VgWKs6hBNgpy7YlauK93WaXlKdi2pcZF5F tp8mSfqLDnAB4nX+TU5OrouEjdJj7A==\nS84BOR4DK28HNHPLC218O483VOOOD5D8.com. 900 IN NSEC3 1 1 0 - S84BR9CIB2A20L3ETR1M2415ENPP99L8 NS DS RRSIG\nS84BOR4DK28HNHPLC218O483VOOOD5D8.com. 900 IN RRSIG NSEC3 13 2 900 20251116035935 20251109024935 46539 com. ceLGLwGiBB1ed/ayz4Q22jCck7zxF/ru+xuzBz5CBcnOn63H1rJlxI/l J6VcwQMBueFiR6kep52LTNV6elI4gA==\n;; Received 644 bytes from 192.41.162.30#53(l.gtld-servers.net) in 146 ms\n\n;; communications error to 216.239.36.10#53: timed out\n;; communications error to 216.239.38.10#53: timed out\n;; UDP setup with 2001:4860:4802:38::a#53(2001:4860:4802:38::a) for google.com failed: network unreachable.\n;; UDP setup with 2001:4860:4802:32::a#53(2001:4860:4802:32::a) for google.com failed: network unreachable.\n;; UDP setup with 2001:4860:4802:34::a#53(2001:4860:4802:34::a) for google.com failed: network unreachable.\n;; communications error to 216.239.32.10#53: timed out\ngoogle.com.\t\t300\tIN\tA\t142.251.42.238\n;; Received 55 bytes from 216.239.34.10#53(ns2.google.com) in 16 ms\n\n",
+  "steps": [
+    {
+      "step_index": 0,
+      "step_type": "root",
+      "name": ".",
+      "records_returned": [
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "a.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "b.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "c.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "d.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "e.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "f.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "g.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "h.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "i.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "j.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "k.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "l.gtld-servers.net."
+        },
+        {
+          "name": "com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "m.gtld-servers.net."
+        }
+      ],
+      "responding_server": {
+        "hostname": "127.0.0.11",
+        "ip": "127.0.0.11",
+        "port": 53
+      },
+      "attempts": [
+        {
+          "attempt_index": 0,
+          "target_ip": "127.0.0.11",
+          "target_hostname": "127.0.0.11",
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "success",
+          "time_ms": 1,
+          "bytes_received": 239,
+          "raw_line": ";; Received 239 bytes from 127.0.0.11#53(127.0.0.11) in 1 ms"
+        },
+        {
+          "attempt_index": 1,
+          "target_ip": "2001:500:a8::e",
+          "target_hostname": "2001:500:a8::e",
+          "family": "ipv6",
+          "protocol": "udp",
+          "result": "network_unreachable",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; UDP setup with 2001:500:a8::e#53(2001:500:a8::e) for google.com failed: network unreachable.",
+          "error_message": "network unreachable."
+        },
+        {
+          "attempt_index": 2,
+          "target_ip": "2001:500:a8::e",
+          "target_hostname": "2001:500:a8::e",
+          "family": "ipv6",
+          "protocol": "udp",
+          "result": "network_unreachable",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; UDP setup with 2001:500:a8::e#53(2001:500:a8::e) for google.com failed: network unreachable.",
+          "error_message": "network unreachable."
+        },
+        {
+          "attempt_index": 3,
+          "target_ip": "2001:500:a8::e",
+          "target_hostname": "2001:500:a8::e",
+          "family": "ipv6",
+          "protocol": "udp",
+          "result": "network_unreachable",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; UDP setup with 2001:500:a8::e#53(2001:500:a8::e) for google.com failed: network unreachable.",
+          "error_message": "network unreachable."
+        }
+      ],
+      "dnssec": [],
+      "notes": "3 attempt(s) failed before success",
+      "timing_summary": {
+        "total_time_ms": 1,
+        "successful_attempt_ms": 1,
+        "failed_attempts_ms": []
+      }
+    },
+    {
+      "step_index": 1,
+      "step_type": "tld",
+      "name": "com",
+      "records_returned": [
+        {
+          "name": "google.com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "ns2.google.com."
+        },
+        {
+          "name": "google.com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "ns1.google.com."
+        },
+        {
+          "name": "google.com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "ns3.google.com."
+        },
+        {
+          "name": "google.com.",
+          "ttl": 172800,
+          "type": "NS",
+          "value": "ns4.google.com."
+        }
+      ],
+      "responding_server": {
+        "hostname": "h.root-servers.net",
+        "ip": "198.97.190.53",
+        "port": 53
+      },
+      "attempts": [
+        {
+          "attempt_index": 0,
+          "target_ip": "198.97.190.53",
+          "target_hostname": "h.root-servers.net",
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "success",
+          "time_ms": 314,
+          "bytes_received": 1170,
+          "raw_line": ";; Received 1170 bytes from 198.97.190.53#53(h.root-servers.net) in 314 ms"
+        }
+      ],
+      "dnssec": [
+        {
+          "type": "DS",
+          "data": "19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A",
+          "parsed": {
+            "key_tag": "19718",
+            "algorithm": "13",
+            "digest_type": "2",
+            "digest": "8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D771D7805A"
+          }
+        },
+        {
+          "type": "RRSIG",
+          "data": "DS 8 1 86400 20251124050000 20251111040000 61809 . z7OyY9wOcL8NannyCF+wfD5wrMaLuvQalYuFgR08JjJecsXEUoMSSDRT olkgmOW8wcuZO0DTLpUKQ/Hz5dB/8lW7dSjWv6QPHMFFiTMHKR/xfDGA EawfXD6DXtB/kRrTRLBnWyx5QjMvprO3AAMGs5gdYZrAxet2G9cqPZWR 0RRRCN3lsGqheWX86ijsXXX6GhxjqiLP1GSlC72cATP2HzLeN2aUsOMY o+2BZsoApqjR+SFB+B47+kPxUan7/V2bxww2Lk2wsBY1/lstT+lZgV7S vwr+YQ9VT/IcDPsFunEIgThev8LMKvX+QOaB3IdMiThu1D/dOJstgbPP W7vRwg==",
+          "parsed": {
+            "type_covered": "DS",
+            "algorithm": "8",
+            "labels": "1",
+            "orig_ttl": "86400",
+            "sig_expiration": "20251124050000",
+            "sig_inception": "20251111040000",
+            "key_tag": "61809",
+            "signer_name": "."
+          }
+        }
+      ],
+      "notes": null,
+      "timing_summary": {
+        "total_time_ms": 314,
+        "successful_attempt_ms": 314,
+        "failed_attempts_ms": []
+      }
+    },
+    {
+      "step_index": 2,
+      "step_type": "authoritative",
+      "name": "google.com",
+      "records_returned": [
+        {
+          "name": "google.com.",
+          "ttl": 300,
+          "type": "A",
+          "value": "142.251.42.238"
+        }
+      ],
+      "responding_server": {
+        "hostname": "l.gtld-servers.net",
+        "ip": "192.41.162.30",
+        "port": 53
+      },
+      "attempts": [
+        {
+          "attempt_index": 0,
+          "target_ip": "192.41.162.30",
+          "target_hostname": "l.gtld-servers.net",
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "success",
+          "time_ms": 146,
+          "bytes_received": 644,
+          "raw_line": ";; Received 644 bytes from 192.41.162.30#53(l.gtld-servers.net) in 146 ms"
+        },
+        {
+          "attempt_index": 1,
+          "target_ip": "216.239.36.10",
+          "target_hostname": null,
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "timeout",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; communications error to 216.239.36.10#53: timed out",
+          "error_message": "timed out"
+        },
+        {
+          "attempt_index": 2,
+          "target_ip": "216.239.38.10",
+          "target_hostname": null,
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "timeout",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; communications error to 216.239.38.10#53: timed out",
+          "error_message": "timed out"
+        },
+        {
+          "attempt_index": 3,
+          "target_ip": "2001:4860:4802:38::a",
+          "target_hostname": "2001:4860:4802:38::a",
+          "family": "ipv6",
+          "protocol": "udp",
+          "result": "network_unreachable",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; UDP setup with 2001:4860:4802:38::a#53(2001:4860:4802:38::a) for google.com failed: network unreachable.",
+          "error_message": "network unreachable."
+        },
+        {
+          "attempt_index": 4,
+          "target_ip": "2001:4860:4802:32::a",
+          "target_hostname": "2001:4860:4802:32::a",
+          "family": "ipv6",
+          "protocol": "udp",
+          "result": "network_unreachable",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; UDP setup with 2001:4860:4802:32::a#53(2001:4860:4802:32::a) for google.com failed: network unreachable.",
+          "error_message": "network unreachable."
+        },
+        {
+          "attempt_index": 5,
+          "target_ip": "2001:4860:4802:34::a",
+          "target_hostname": "2001:4860:4802:34::a",
+          "family": "ipv6",
+          "protocol": "udp",
+          "result": "network_unreachable",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; UDP setup with 2001:4860:4802:34::a#53(2001:4860:4802:34::a) for google.com failed: network unreachable.",
+          "error_message": "network unreachable."
+        },
+        {
+          "attempt_index": 6,
+          "target_ip": "216.239.32.10",
+          "target_hostname": null,
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "timeout",
+          "time_ms": null,
+          "bytes_received": 0,
+          "raw_line": ";; communications error to 216.239.32.10#53: timed out",
+          "error_message": "timed out"
+        }
+      ],
+      "dnssec": [
+        {
+          "type": "NSEC3",
+          "data": "1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL NS SOA RRSIG DNSKEY NSEC3PARAM",
+          "parsed": {}
+        },
+        {
+          "type": "RRSIG",
+          "data": "NSEC3 13 2 900 20251115002630 20251107231630 46539 com. dxQ1aDzMstWomzJXQiHSR7VgWKs6hBNgpy7YlauK93WaXlKdi2pcZF5F tp8mSfqLDnAB4nX+TU5OrouEjdJj7A==",
+          "parsed": {
+            "type_covered": "NSEC3",
+            "algorithm": "13",
+            "labels": "2",
+            "orig_ttl": "900",
+            "sig_expiration": "20251115002630",
+            "sig_inception": "20251107231630",
+            "key_tag": "46539",
+            "signer_name": "com."
+          }
+        },
+        {
+          "type": "NSEC3",
+          "data": "1 1 0 - S84BR9CIB2A20L3ETR1M2415ENPP99L8 NS DS RRSIG",
+          "parsed": {}
+        },
+        {
+          "type": "RRSIG",
+          "data": "NSEC3 13 2 900 20251116035935 20251109024935 46539 com. ceLGLwGiBB1ed/ayz4Q22jCck7zxF/ru+xuzBz5CBcnOn63H1rJlxI/l J6VcwQMBueFiR6kep52LTNV6elI4gA==",
+          "parsed": {
+            "type_covered": "NSEC3",
+            "algorithm": "13",
+            "labels": "2",
+            "orig_ttl": "900",
+            "sig_expiration": "20251116035935",
+            "sig_inception": "20251109024935",
+            "key_tag": "46539",
+            "signer_name": "com."
+          }
+        }
+      ],
+      "notes": "6 attempt(s) failed before success",
+      "timing_summary": {
+        "total_time_ms": 146,
+        "successful_attempt_ms": 146,
+        "failed_attempts_ms": []
+      }
+    },
+    {
+      "step_index": 3,
+      "step_type": "final_answer",
+      "name": "google.com",
+      "records_returned": [],
+      "responding_server": {
+        "hostname": "ns2.google.com",
+        "ip": "216.239.34.10",
+        "port": 53
+      },
+      "attempts": [
+        {
+          "attempt_index": 0,
+          "target_ip": "216.239.34.10",
+          "target_hostname": "ns2.google.com",
+          "family": "ipv4",
+          "protocol": "udp",
+          "result": "success",
+          "time_ms": 16,
+          "bytes_received": 55,
+          "raw_line": ";; Received 55 bytes from 216.239.34.10#53(ns2.google.com) in 16 ms"
+        }
+      ],
+      "dnssec": [],
+      "notes": null,
+      "timing_summary": {
+        "total_time_ms": 16,
+        "successful_attempt_ms": 16,
+        "failed_attempts_ms": []
+      }
+    }
+  ]
+}
